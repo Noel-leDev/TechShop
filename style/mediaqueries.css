@@ -1,0 +1,23 @@
+
+/* main .content article .desc{
+   
+} */
+
+@media (min-width: 768px) {
+  main .content {
+    /* grid-template-columns: repeat(4, 1fr); */
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  main .content article .img .thumbnail {
+  width: 100%; /* S'adapte à la largeur du parent */
+  max-width: 300px; /* Mais ne dépasse pas 300px */
+  height: 300px;
+}
+header .nav{
+  display: flex;
+  justify-content: space-between;
+  width: max-content;
+}
+
+
+}

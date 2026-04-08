@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iStore</title>
+    <link rel="stylesheet" href="style/mediaqueries.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ma boutique en ligne</h1>
+
+      <header class=" ">
+        <div class="nav">
+          <ul class="filter" role="navigation">
+            <li class="categorie active" data-categorie="tous">Tous</li>
+            <li class="categorie" data-categorie="telephone">Téléphones</li>
+            <li class="categorie" data-categorie="ordinateur">Ordinateurs</li>
+            <li class="categorie" data-categorie="accessoires">Accessoires</li>
+          </ul>
+        </div>
+
+        <form
+          class="search"
+          id="searchForm"
+          action="#"
+          method="GET"
+          style="display: flex; align-items: center"
+        >
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Rechercher votre produit..."
+            autocomplete="off"
+          />
+          <button
+            type="submit"
+            style="
+              background: none;
+              border: none;
+              cursor: pointer;
+              margin-left: 5px;
+            "
+          >
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </header>
+      <main>
+        <div class="content" id="content">
+          <!-- <article>
+            <div class="img">
+              <div class="thumbnail"><img src="../img2.png" alt="" /></div>
+            </div>
+            <div class="desc">
+              <h3>Iphone 15 pro</h3>
+              <h4>Prix : 1400€</h4>
+              <p>telephone</p>
+            </div>
+          </article>
+           -->
+        </div>
+      </main>
+      <br />
+    </div>
+    <script src="functions/function.js"></script>
+    <script src="functions/scrypt.js"></script>
+  </body>
+</html>
